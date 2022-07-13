@@ -1,0 +1,422 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/*---------------------style.css-----------------------*/
+
+body {
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header {
+    background-color: #efecec;
+}
+
+.header__container {
+    max-width: 1300px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 25px 0;
+}
+
+.header__navigation {
+    padding: 60px 0;
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu a {
+    padding: 10px 45px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.header__menu a:hover {
+    color: #FA4A0C;
+}
+
+.header__menu a:active {
+    color: #FA4A0C;
+}
+
+.fullscreen {
+    background: #efecec url(../image/background.jpg) 50% 50%/cover no-repeat;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    padding: 10vh 0vh 25vh 0vh;
+}
+
+.fullscreen__container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header__subtitle {
+}
+
+h1 {
+    font-family: "Poppins";
+    font-size: 58px;
+    line-height: 80px;
+}
+
+.header__text {
+    font-weight: 500;
+}
+
+.header__application {
+    width: 506px;
+    height: 68px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 236px;
+    height: 68px;
+    color: #fff;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    position: relative;
+}
+
+.button:hover {
+    background-color: #FA4A0C;
+    border: none;
+}
+
+.button:active {
+    top: 3px;
+}
+
+.button__playstore {
+}
+
+.button__appstore {
+}
+
+/*--------------------------Float block-------------------*/
+
+.floatingblock {
+    margin-top: -300px;
+}
+
+.howitwork__wrap {
+    max-width: 900px;
+    margin: 0 auto;
+    border-bottom: 2px solid rgb(236, 236, 236);
+}
+
+/*----------------------Create-----------------------*/
+
+.create {
+    padding: 70px 0 0 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.cr {
+    font-family: "Poppins";
+    font-size: 44px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.create__wrap {
+    display: flex;
+}
+
+.create__image {
+}
+
+.create__step1 {
+    padding: 250px 0 150px 0;
+}
+
+.subtitle {
+    color: #FA4A0C;
+    line-height: 36px;
+}
+
+.step1__subtitle {
+    margin-bottom: 7px;
+}
+
+.step1__title {
+    margin-bottom: 17px;
+    letter-spacing: -0.8px;
+}
+
+.title {
+    line-height: 57px;
+    font-size: 40px;
+    color: #252B42;
+}
+
+.step1__text {
+}
+
+.text {
+    font-weight: 500;
+    line-height: 40px;
+    color: #737373;
+}
+
+/*----------------------Explore------------------*/
+
+.explore {
+}
+
+.explore__wrap {
+    display: flex;
+}
+
+.explore__step2 {
+    padding: 250px 0 150px 0;
+}
+
+.step2__subtitle {
+    margin-bottom: 7px;
+}
+
+.step2__title {
+    margin-bottom: 17px;
+}
+
+.step2__text {
+}
+
+.explore__image {
+}
+
+/*-----------------------checkout------------------*/
+
+.checkout {
+}
+
+.ccheckout__wrap {
+    display: flex;
+}
+
+.checkout__image {
+}
+
+.checkout__step3 {
+    padding: 250px 0 150px 0;
+}
+
+.step3__subtitle {
+    margin-bottom: 7px;
+}
+
+.step3__title {
+    margin-bottom: 17px;
+}
+
+.step3__text {
+}
+
+/*------------------------Download----------------------*/
+
+.download {
+    background: #efecec url(../image/desktop.jpg) 50% 50%/cover no-repeat;
+    padding: 130px 0;
+    text-align: center;
+}
+
+.download__title {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.download__text {
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.download__application {
+    width: 375px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    height: 60px;
+    width: 175px;
+    padding: 16px 46px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #FA4A0C;
+    border: none;
+}
+
+.btn:active {
+    top: 3px;
+}
+
+.btn__playstore {
+}
+.btn__appstore {
+}
+
+/*------------------------footer-----------------------*/
+
+.footer {
+    background-color: #efecec;
+}
+
+.footer__container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer__contant {
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__image {
+}
+
+.footer__socialnetwork {
+    width: 170px;
+}
+
+.socialnetwork {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialnetwork  li, .socialnetwork a  {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.f {
+    margin: 3.5px;
+}
+
+.copyright {
+}
+
+.copyright__text {
+    font-family: "Roboto";
+    font-size: 12px;
+    color: #5C5C5C;
+}
